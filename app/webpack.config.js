@@ -16,5 +16,8 @@ module.exports = {
         loader: 'awesome-typescript-loader'
       }
     ]
+  },
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
   }
 }

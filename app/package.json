@@ -2,16 +2,15 @@
   "name": "@test/app",
   "private": true,
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "webpack --watch --mode development",
+    "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production"
   },
   "dependencies": {
     "@test/components": "file:../components",
-    "react": "16.8.0",
-    "react-dom": "16.8.0"
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
   },
   "devDependencies": {
     "@types/node": "12.6.9",
@@ -20,6 +19,7 @@
     "awesome-typescript-loader": "5.2.1",
     "typescript": "3.5.3",
     "webpack": "4.39.1",
-    "webpack-cli": "3.3.6"
+    "webpack-cli": "3.3.6",
+    "webpack-dev-server": "3.7.2"
   }
 }

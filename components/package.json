@@ -1,0 +1,16 @@
+{
+  "name": "@test/components",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "module": "index.tsx",
+  "dependencies": {
+    "@material-ui/core": "4.3.0",
+    "react": "16.8.0",
+    "react-dom": "16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "16.8.24",
+    "@types/react-dom": "16.8.5"
+  }
+}

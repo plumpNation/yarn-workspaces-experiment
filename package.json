@@ -1,0 +1,11 @@
+{
+  "name": "yarn-link",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "app",
+    "components"
+  ]
+}

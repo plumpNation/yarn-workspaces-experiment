@@ -1,9 +1,10 @@
 const path = require('path');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
   entry: './src/index.tsx',
   resolve: {
-    extensions: ['.ts', '.tsx', '.js']
+    extensions: ['.ts', '.tsx', '.js'],
   },
   output: {
     path: path.join(__dirname, '/dist'),
@@ -17,6 +18,9 @@ module.exports = {
       }
     ]
   },
+  plugins: [
+    new BundleAnalyzerPlugin()
+  ],
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
   }

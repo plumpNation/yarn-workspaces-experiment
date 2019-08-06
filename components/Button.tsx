@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Button as MUIButton } from '@material-ui/core';
+import MUIButton from '@material-ui/core/Button';
 
 export const Button: React.FC = ({children}) =>
     <MUIButton>{children}</MUIButton>;

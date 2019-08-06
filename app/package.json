@@ -8,7 +8,7 @@
     "build": "webpack --mode production"
   },
   "dependencies": {
-    "@test/components": "file:../components",
+    "@test/components": "1.0.0",
     "react": "16.8.6",
     "react-dom": "16.8.6"
   },
@@ -19,6 +19,7 @@
     "awesome-typescript-loader": "5.2.1",
     "typescript": "3.5.3",
     "webpack": "4.39.1",
+    "webpack-bundle-analyzer": "3.4.1",
     "webpack-cli": "3.3.6",
     "webpack-dev-server": "3.7.2"
   }
